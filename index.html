@@ -114,8 +114,8 @@
     </div>
     <div class="main-bar">
         <div class="main-bar-left-box">
-            <h3>The fastest way to grow your business with the leader in Technology</h3>
-            <p>Check out our options and features included.</p>
+            <h3>The fastest way to grow your business with the leader in <i class="styled">Technology</i></h3>
+            <p class="low-height-line">Check out our options and features included.</p>
         </div>
         <div class="main-bar-right-box">
             <input type="button" class="blue-button" value="Get Started Now!">
@@ -123,20 +123,47 @@
         </div>
     </div>
     <div class="side-left">
-
+        <h1>A place where amazing things <b>Get Done!</b></h1>
+        <p class="mid-height-line">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            A accusamus aliquid amet beatae dignissimos distinctio dolores
+            ducimus ea, excepturi exercitationem expedita explicabo illo in nobis,
+            officiis omnis perspiciatis qui quos reiciendis vel, vitae voluptates!
+        </p>
+        <p class="low-height-line">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil reiciendis sed ut voluptates.
+            Ad autem debitis fugiat ipsa necessitatibus numquam, quis veritatis. Aliquid explicabo iste temporibus. Provident, sapiente voluptate?
+        </p>
     </div>
-    <div class="side-right">
+    <div class="map" id="map">
 
     </div>
     <div class="notice-left">
-
+        <h2><i class="fas fa-star"></i>12 years in business</h2>
+        <p class="low-height-line">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur debitis dolorem doloribus incidunt nobis non pariatur praesentium quos totam.</p>
     </div>
     <div class="notice-right">
-
+        <h2><i class="fas fa-heart"></i>Loved by customes</h2>
+        <p class="low-height-line">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur distinctio est eveniet excepturi hic laboriosam obcaecati sint soluta voluptates?</p>
     </div>
     <div class="contact">
-
+        <p><i class="fas fa-map-marker-alt"></i> <b>Address: </b>1234 Street Name, City Name, Country</p>
+        <p><i class="fas fa-phone"></i><b>Phone: </b>(123)-456-7890</p>
+        <p><i class="fas fa-envelope"></i><b>Email: </b>mail@example.com</p>
     </div>
 </div>
+<script>
+    function initMap() {
+        var location = {lat: 41.006900, lng:28.932313};
+        var map = new google.maps.Map(document.getElementById("map"), {zoom: 4, center: location});
+        var market = new google.maps.Marker({
+            position: location, map: map
+        });
+    }
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOPFvLeNsb4u_WeONMUVKnsu6U350Q-1M&callback=initMap">
+
+</script>
 </body>
 </html>

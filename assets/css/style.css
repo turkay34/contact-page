@@ -34,6 +34,7 @@
 .drop-down-menu{
     grid-column: 4 / 6;
     grid-row: 2 / 3;
+    padding-bottom: 15px;
 }
 .dropdown{
     position: relative;
@@ -46,17 +47,20 @@
     position: relative;
     display: inline;
     padding: 8px;
-    font-size: 15px;
+    font-size: 13px;
     color: dodgerblue;
     background-color: transparent;
     border: none;
     cursor: pointer;
+    font-family: "Arial Black";
 }
 .drop-down-menu .droplst i{
     position: absolute;
-    bottom: 12px;
+    bottom: 14px;
+    padding: 0 0 0 5px;
 }
 .drop-down-menu .droplst:hover, .droplt:focus{
+    border-radius: 15px;
     background-color: dodgerblue;
     color: white;
 }
@@ -170,10 +174,8 @@
     justify-content: space-evenly;
     padding: 15px 0 15px 0;
 }
-.main-bar-right-box{
-
-}
 .main-bar-left-box{
+    font-family: "Comic Sans MS";
     color: white;
 }
 .main-bar-left-box p{
@@ -184,41 +186,60 @@
 .side-left{
     grid-column: 2 / 4;
     grid-row: 5 / 6;
-    border: 5px solid green;
-    border-radius: 3px;
-    background-color: green;
+}
+.side-left h1{
+    font-size: 30px;
+    padding: 25px 0 10px 0;
+}
+.side-left p{
+    padding: 10px 0 15px 0;
 }
 
-.side-right{
+.map{
+    margin-top: 25px;
     grid-column: 4 / 6;
-    grid-row: 6 / 8;
-    border: 5px solid hotpink;
-    border-radius: 3px;
-    background-color: hotpink;
+    grid-row: 5 / 8;
 }
 
 .notice-left{
     grid-column: 2 / 3;
     grid-row: 6 / 8;
-    border: 5px solid yellow;
-    border-radius: 3px;
-    background-color: yellow;
+}
+.notice-left h2{
+    font-size: 18px;
+    color: dodgerblue;
+    padding: 0 0 10px;
+}
+.notice-left p{
+    padding: 0 0 0 36px;
+}
+.notice-left i{
+    padding: 0 15px 0 0;
 }
 
 .notice-right{
     grid-column: 3 / 4;
     grid-row: 6 / 8;
-    border: 5px solid brown;
-    border-radius: 3px;
-    background-color: brown;
+}
+.notice-right h2{
+    font-size: 18px;
+    color: dodgerblue;
+    padding: 0 0 10px;
+}
+.notice-right p{
+    padding: 0 0 0 36px;
+}
+.notice-right i{
+    padding: 0 15px 0 0;
 }
 
 .contact{
     grid-column: 4 / 6;
     grid-row: 8 / 9;
-    border: 5px solid darkturquoise;
-    border-radius: 3px;
-    background-color: darkturquoise;
+}
+.contact i{
+    color: dodgerblue;
+    padding: 12px 20px 0 0;
 }
 
 #home:hover #home-content{
@@ -268,7 +289,6 @@
     height: 30px;
     font-size: 12px;
 }
-
 .blue-button{
     background-color: dodgerblue;
     color: white;
@@ -277,4 +297,21 @@
     height: 30px;
     width: 120px;
     font-size: 14px;
+}
+.mid-height-line{
+    color: gray;
+    font-size: 20px;
+}
+.low-height-line{
+    color: gray;
+    font-size: 16px;
+}
+.styled{
+    color: dodgerblue;
+    font-style: italic;
+    font-size: 20px;
+}
+@font-face {
+    font-family: burlington;
+    src: url("../../TrueType/");
 }
