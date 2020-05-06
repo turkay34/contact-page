@@ -172,3 +172,37 @@
         font-size: 16px;
     }
 }
+@media only screen and (min-width: 1280px){
+    .fa-search{
+        right: 170px;
+    }
+    .drop-down-menu .droplst{
+        font-size: 10px;
+        padding: 4px 12px 10px;
+    }
+    .drop-down-menu .droplst i{
+        bottom: 14px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .fa-search{
+        right: 190px;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .fa-search{
+        right: 200px;
+    }
+}
+@media only screen and (min-width: 1900px){
+    .fa-search{
+        right: 250px;
+    }
+    .drop-down-menu .droplst{
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .drop-down-menu .droplst i{
+        bottom: 14px;
+    }
+}
