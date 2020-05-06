@@ -16,7 +16,7 @@
 .header ul li{
     display: inline;
     font-size: 16px;
-    padding: 5px 5px;
+    padding: 5px 5px 0 5px;
 }
 .header ul li a{
     color: gray;
@@ -32,7 +32,7 @@
 }
 
 .drop-down-menu{
-    grid-column: 4 / 6;
+    grid-column: 3 / 6;
     grid-row: 2 / 3;
     padding-bottom: 15px;
 }
@@ -46,8 +46,9 @@
 .drop-down-menu .droplst{
     position: relative;
     display: inline;
-    padding: 8px;
-    font-size: 13px;
+    padding: 8px 10px;
+    margin-right: 10px;
+    font-size: 12px;
     color: dodgerblue;
     background-color: transparent;
     border: none;
@@ -126,7 +127,7 @@
 .main-top-right-box input[type$=text]{
     margin-top: 4px;
 }
-.main-top-right-box p{
+.main-top-right-box label{
     color: gray;
     font-size: 14px;
 }
@@ -181,11 +182,11 @@
 .main-bar-left-box p{
     padding: 3px 0 3px 0;
 }
-
-
 .side-left{
     grid-column: 2 / 4;
     grid-row: 5 / 6;
+    text-align: justify;
+    padding: 0 15px 0 0;
 }
 .side-left h1{
     font-size: 30px;
@@ -197,13 +198,14 @@
 
 .map{
     margin-top: 25px;
-    grid-column: 4 / 6;
+    grid-column: 4 / 7;
     grid-row: 5 / 8;
 }
 
 .notice-left{
     grid-column: 2 / 3;
     grid-row: 6 / 8;
+    text-align: justify;
 }
 .notice-left h2{
     font-size: 18px;
@@ -220,6 +222,8 @@
 .notice-right{
     grid-column: 3 / 4;
     grid-row: 6 / 8;
+    text-align: justify;
+    padding: 0 15px 0 0;
 }
 .notice-right h2{
     font-size: 18px;
@@ -310,8 +314,4 @@
     color: dodgerblue;
     font-style: italic;
     font-size: 20px;
-}
-@font-face {
-    font-family: burlington;
-    src: url("../../TrueType/");
 }
